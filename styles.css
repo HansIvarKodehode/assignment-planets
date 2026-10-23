@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+@font-face {
+  font-family: TASA;
+  src: url("fonts/TASAOrbiter-VariableFont_wght.ttf");
+}
+:root {
+  --textColor: white;
+}
+
+a {
+  color: var(--textColor);
+  font-family: TASA;
+}
+
+/* Navbar elements */
+#showNavBar {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+nav {
+  padding: 20px;
+  border: 1px black solid;
+  max-width: 100vw;
+  display: none;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 4px 8px;
+}
+ul li {
+  padding: 4px 8px;
+  margin: 5px;
+  list-style-position: inside;
+}
+
+/* Body styling */
+body {
+  font-family: TASA;
+  color: var(--textColor);
+  background-color: darkslategrey;
+  text-shadow:
+    1px 0 black,
+    -1px 0 black,
+    0 1px black,
+    0 -1px black;
+}
+.stayInTheMiddleDammit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* section styling */
+section {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vb;
+}
+section * {
+  margin: 3px;
+  padding: 10px;
+}
+section p {
+  margin: auto 0 0 0;
+}
+
+/* styling planet id's */
+#sol {
+  background-image: url("images/sol.jpg");
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+}
+#mercury {
+  background-image: url("images/mercury.webp");
+  background-position: center;
+  background-size: cover;
+  align-items: start;
+}
+#venus {
+  background-image: url("images/venus.jpg");
+  background-position: center;
+  background-size: cover;
+  align-items: start;
+}
+#terra {
+  background-image: url("images/terra.jpg");
+  background-position: center;
+  background-size: cover;
+  align-items: end;
+}
+#mars {
+  background-image: url("images/mars.jpg");
+  background-position: center;
+  background-size: cover;
+  align-items: end;
+}
+#jupiter {
+  background-image: url("images/jupiter.jpg");
+  background-position: center;
+  background-size: cover;
+  align-items: end;
+}
+#saturn {
+  background-image: url("images/saturn.jpg");
+  background-position: center;
+  background-size: cover;
+  align-items: end;
+}
+#uranus {
+  background-image: url("images/uranus.jpg");
+  background-position: center;
+  background-size: cover;
+  align-items: end;
+}
+#neptune {
+  background-image: url("images/neptune.jpg");
+  background-position: center;
+  background-size: cover;
+  align-items: end;
+}
+#pluto {
+  background-image: url("images/pluto.jpg");
+  background-position: center;
+  background-size: cover;
+  align-items: end;
+}
