@@ -94,16 +94,16 @@ section p {
   align-items: center;
 }
 #mercury {
-  background-image: url("images/mercury.webp");
+  background-image: url("images/mercury2.jpg");
   background-position: center;
   background-size: cover;
-  align-items: start;
+  align-items: end;
 }
 #venus {
   background-image: url("images/venus.jpg");
   background-position: center;
   background-size: cover;
-  align-items: start;
+  align-items: end;
 }
 #terra {
   background-image: url("images/terra.jpg");
