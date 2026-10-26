@@ -145,5 +145,5 @@ section p {
   background-image: url("images/pluto.jpg");
   background-position: center;
   background-size: cover;
-  align-items: end;
+  align-items: flex-end;
 }
