@@ -10,7 +10,7 @@ html {
   src: url("fonts/TASAOrbiter-VariableFont_wght.ttf");
 }
 :root {
-  --textColor: white;
+  --textColor: rgb(236, 223, 223);
 }
 
 a {
